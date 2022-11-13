@@ -177,8 +177,7 @@ nav {
   display: flex;
 }
 .email_block input {
-  transition: ease-in-out;
-  transition-duration: 0.2s;
+  transition: all 0.3s;
   margin-left: 25px;
   z-index: 2;
   font-family: "Open Sans";
@@ -191,13 +190,11 @@ nav {
 }
 
 .email_block input:active {
-  transition: ease-out;
-  transition-duration: 0.2s;
+  transition: all 0.3s;
 }
 
 .email_block input:focus {
-  transition: ease-in-out;
-  transition-duration: 0.2s;
+  transition: all 0.3s;
   margin-left: 25px;
   z-index: 2;
   font-family: "Open Sans";
@@ -210,8 +207,7 @@ nav {
   background: none;
 }
 .email_block input:focus::placeholder {
-  transition: ease-in-out;
-  transition-duration: 0.2s;
+  transition: all 0.3s;
   color: transparent;
 }
 
@@ -346,7 +342,13 @@ nav {
   margin: 0 auto;
   display: flex;
   width: 360px;
+  top: 0px;
   background: rgba(0, 184, 217, 0.1);
+  transition: all 0.5s;
+}
+
+.block_multiOS:hover {
+  transform: translateY(-10px);
 }
 .block_text {
   margin: 0 auto;
@@ -375,7 +377,12 @@ nav {
   display: flex;
   width: 360px;
   background: rgba(54, 179, 126, 0.1);
+  transition: all 0.5s;
 }
+.block_Compatibility:hover {
+  transform: translateY(-10px);
+}
+
 .block_Integrations {
   border-radius: 16px;
   justify-content: center;
@@ -384,6 +391,10 @@ nav {
   display: flex;
   width: 360px;
   background: rgba(233, 84, 50, 0.1);
+  transition: all 0.5s;
+}
+.block_Integrations:hover {
+  transform: translateY(-10px);
 }
 footer {
   margin-bottom: 35px;
@@ -418,8 +429,6 @@ footer {
   width: 263px;
   left: 0px;
   top: 56px;
-  border-radius: nullpx;
-
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -428,9 +437,29 @@ footer {
 }
 
 .icons_logo_section {
-  cursor: pointer;
   display: flex;
 }
+
+.icons_logo_section .a:hover {
+  transform: translateY(-10px);
+}
+.icons_logo_section .b:hover {
+  transform: translateY(-10px);
+}
+.icons_logo_section .c:hover {
+  transform: translateY(-10px);
+}
+
+.icons_logo_section .d:hover {
+  transform: translateY(-10px);
+}
+.a,
+.b,
+.c,
+.d {
+  transition: all 0.3s;
+}
+
 .product_section {
   display: flex;
   flex-direction: column;
