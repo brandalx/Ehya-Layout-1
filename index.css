@@ -348,6 +348,7 @@ nav {
 }
 
 .block_multiOS:hover {
+  cursor: pointer;
   transform: translateY(-10px);
 }
 .block_text {
@@ -380,10 +381,12 @@ nav {
   transition: all 0.5s;
 }
 .block_Compatibility:hover {
+  cursor: pointer;
   transform: translateY(-10px);
 }
 
 .block_Integrations {
+  cursor: pointer;
   border-radius: 16px;
   justify-content: center;
   flex-wrap: wrap;
