@@ -441,16 +441,20 @@ footer {
 }
 
 .icons_logo_section .a:hover {
+  cursor: pointer;
   transform: translateY(-10px);
 }
 .icons_logo_section .b:hover {
+  cursor: pointer;
   transform: translateY(-10px);
 }
 .icons_logo_section .c:hover {
+  cursor: pointer;
   transform: translateY(-10px);
 }
 
 .icons_logo_section .d:hover {
+  cursor: pointer;
   transform: translateY(-10px);
 }
 .a,
