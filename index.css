@@ -351,7 +351,16 @@ nav {
   background: rgba(0, 205, 241, 0.329);
   cursor: pointer;
   transform: translateY(-10px);
+  transform: scale(1.05);
 }
+
+.block_multiOS:active {
+  background: rgba(0, 205, 241, 0.541);
+  cursor: pointer;
+  transform: translateY(-10px);
+  transform: scale(1.05);
+}
+
 .block_text {
   margin: 0 auto;
   display: flex;
@@ -385,6 +394,14 @@ nav {
   background: rgba(65, 218, 154, 0.281);
   cursor: pointer;
   transform: translateY(-10px);
+  transform: scale(1.05);
+}
+
+.block_Compatibility:active {
+  background: rgba(59, 243, 166, 0.521);
+  cursor: pointer;
+  transform: translateY(-10px);
+  transform: scale(1.05);
 }
 
 .block_Integrations {
@@ -399,8 +416,15 @@ nav {
   transition: all 0.5s;
 }
 .block_Integrations:hover {
-  background: rgba(243, 73, 35, 0.308);
+  background: rgba(250, 86, 64, 0.363);
   transform: translateY(-10px);
+  transform: scale(1.05);
+}
+
+.block_Integrations:active {
+  background: rgba(250, 66, 24, 0.527);
+  transform: translateY(-10px);
+  transform: scale(1.05);
 }
 footer {
   margin-bottom: 35px;
