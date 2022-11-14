@@ -117,17 +117,17 @@ nav {
   align-self: flex-end;
 
   cursor: pointer;
-  box-shadow: 5px 5px 40px #398cff69;
+  box-shadow: 10px 6px 40px #398cff69;
   transition: ease-in;
   transition-duration: 0.2s;
   color: white;
-  background: #1565d8;
+  background: #2279f3;
   height: 48px;
   width: 131px;
   left: 0px;
   top: 0px;
   border-radius: 8px;
-  border: 2px solid #1565d8;
+  border: 2px solid #2279f3;
 }
 
 .nav_button:active {
@@ -348,6 +348,7 @@ nav {
 }
 
 .block_multiOS:hover {
+  background: rgba(0, 205, 241, 0.329);
   cursor: pointer;
   transform: translateY(-10px);
 }
@@ -381,6 +382,7 @@ nav {
   transition: all 0.5s;
 }
 .block_Compatibility:hover {
+  background: rgba(65, 218, 154, 0.281);
   cursor: pointer;
   transform: translateY(-10px);
 }
@@ -397,6 +399,7 @@ nav {
   transition: all 0.5s;
 }
 .block_Integrations:hover {
+  background: rgba(243, 73, 35, 0.308);
   transform: translateY(-10px);
 }
 footer {
