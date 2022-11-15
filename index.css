@@ -4,7 +4,7 @@
   font-style: normal;
 }
 
-/*@font-face {
+@font-face {
   font-family: "HKGroteskBlack";
   src: url("fonts/HKGroteskBlack.eot");
   src: url("fonts/HKGroteskBlack.eot") format("embedded-opentype"),
@@ -82,7 +82,7 @@
     url("fonts/HKGroteskSemiBoldLegacy.ttf") format("truetype"),
     url("fonts/HKGroteskSemiBoldLegacy.svg#HKGroteskSemiBoldLegacy")
       format("svg");
-}*/
+}
 
 body {
   margin: 0;
