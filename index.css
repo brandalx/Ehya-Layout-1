@@ -146,17 +146,17 @@ nav {
   align-self: flex-end;
 
   cursor: pointer;
-  box-shadow: 7px 7px 60px #5099ff;
+  box-shadow: 7px 7px 60px #6eaafffb;
   transition: ease-in;
   transition-duration: 0.2s;
   color: white;
-  background: #1565d8;
+  background: #3686f7;
   height: 48px;
   width: 131px;
   left: 0px;
   top: 0px;
   border-radius: 8px;
-  border: 2px solid #1565d8;
+  border: 2px solid #3686f7;
 }
 
 .header_main_content {
