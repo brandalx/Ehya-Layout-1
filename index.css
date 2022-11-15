@@ -1,3 +1,9 @@
+@fontface {
+  font-family: "HK Grotesk", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
 }
@@ -293,6 +299,7 @@ nav {
 }
 
 .right_block img:hover {
+  cursor: pointer;
   transform: scale(1.05);
   filter: saturate(1.5);
 }
